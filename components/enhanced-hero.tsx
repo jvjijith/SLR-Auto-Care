@@ -230,7 +230,7 @@ export function EnhancedHero({ onBookNowClick }: EnhancedHeroProps) {
               </div>
               <div>
                 <p className="text-xs text-white/70">Find Us</p>
-                <span>4/32 Essington St,  3216</span>
+                <span>5/32-44 Tarkin court Bell Park Vic 3215 Australia</span>
               </div>
             </div>
             <div className="flex items-center gap-3">
