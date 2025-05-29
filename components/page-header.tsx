@@ -79,7 +79,7 @@ export function PageHeader({ title, description, backgroundImage, ctaButton }: P
                 className="text-center"
               >
                 <span className="inline-block text-sm font-medium text-white/70 uppercase tracking-wider mb-2">
-                  GCS Autocare Grovedale
+                  SLR Auto Care
                 </span>
                 <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl mb-2 relative">
                   {title}

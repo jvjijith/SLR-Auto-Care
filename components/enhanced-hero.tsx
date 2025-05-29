@@ -97,7 +97,7 @@ export function EnhancedHero({ onBookNowClick }: EnhancedHeroProps) {
                 <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl/none text-white">
                   <span className="block">{slides[activeSlide].title}</span>
                   <span className="block text-6xl md:text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-white to-red-500">
-                    GCS Autocare
+                    SLR Auto Care
                   </span>
                 </h1>
                 <p className="max-w-[600px] text-white/90 md:text-xl">{slides[activeSlide].subtitle}</p>
@@ -203,10 +203,10 @@ export function EnhancedHero({ onBookNowClick }: EnhancedHeroProps) {
               </div>
               <div>
                 <p className="text-xs text-white/70">Call Us</p>
-                <a href="tel:0352705676" className="hover:text-red-400 transition-colors">
-                  03 5270 5676
-                </a> | <a href="tel:0490 090 995" className="hover:text-red-400 transition-colors">
-                  0490 090 995
+                <a href="tel:0352025884" className="hover:text-red-400 transition-colors">
+                  03 5202 5884
+                </a> | <a href="tel:61 447 430 065" className="hover:text-red-400 transition-colors">
+                  61 447 430 065
                 </a>
               </div>
             </div>
@@ -230,7 +230,7 @@ export function EnhancedHero({ onBookNowClick }: EnhancedHeroProps) {
               </div>
               <div>
                 <p className="text-xs text-white/70">Find Us</p>
-                <span>4/32 Essington St, Grovedale 3216</span>
+                <span>4/32 Essington St,  3216</span>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -253,7 +253,7 @@ export function EnhancedHero({ onBookNowClick }: EnhancedHeroProps) {
               </div>
               <div>
                 <p className="text-xs text-white/70">Opening Hours</p>
-                <span>Mon-Fri: 9:00 AM - 5:00 PM | Sat: 9:00 AM - 2:00 PM</span>
+                <span>Mon-Sat: 9:00 AM - 5:00 PM | Sunday by Appointent</span>
               </div>
             </div>
           </div>

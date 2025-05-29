@@ -73,8 +73,8 @@ export default function AboutPage() {
       <div className="relative">
         <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white text-center mb-6 leading-tight">
           About <span className="relative inline-block">
-            <span className="relative z-10">GCS Autocare</span>
-          </span> Grovedale
+            <span className="relative z-10">SLR Auto Care</span>
+          </span> 
         </h1>
         
         {/* Updated divider with stronger red */}
@@ -207,7 +207,7 @@ export default function AboutPage() {
                 <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter sm:text-4xl text-red-900 mb-4 sm:mb-6">Our Story</h2>
                 <div className="space-y-3 sm:space-y-4 text-gray-600">
                   <p>
-                    GCS Autocare Grovedale was founded in 2008 with a simple mission: to provide honest, reliable, and
+                    SLR Auto Care was founded in 2008 with a simple mission: to provide honest, reliable, and
                     professional vehicle inspection and mechanical services to the Geelong community.
                   </p>
                   <p>
@@ -238,7 +238,7 @@ export default function AboutPage() {
                 <div className="relative z-10">
                   <Image
                     src="/images/workshop.jpg"
-                    alt="Roadworthy Geelong Workshop"
+                    alt="SLR Auto Care Workshop"
                     width={600}
                     height={400}
                     className="w-full h-auto rounded-lg shadow-xl"
@@ -257,7 +257,7 @@ export default function AboutPage() {
             <div className="text-center max-w-3xl mx-auto mb-10 sm:mb-16">
               <h2 className="text-2xl sm:text-3xl font-bold tracking-tighter sm:text-4xl text-red-900 mb-3 sm:mb-4">Our Values</h2>
               <p className="text-gray-600 text-sm sm:text-base">
-                At GCS Autocare Grovedale, our values guide everything we do. We're committed to providing exceptional
+                At SLR Auto Care, our values guide everything we do. We're committed to providing exceptional
                 service with integrity, expertise, and a customer-first approach.
               </p>
             </div>
@@ -412,7 +412,7 @@ export default function AboutPage() {
                 Ready to Experience the Difference?
               </h2>
               <p className="text-base sm:text-lg md:text-xl text-white/80 mb-6 sm:mb-8">
-                Book your vehicle inspection or service today and see why GCS Autocare Grovedale is the trusted choice for
+                Book your vehicle inspection or service today and see why SLR Auto Care is the trusted choice for
                 vehicle care in Geelong.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">

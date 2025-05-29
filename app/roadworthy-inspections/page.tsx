@@ -220,7 +220,7 @@ export default function RoadworthyInspectionsPage() {
                     minimum safety standards required by VicRoads.
                   </p>
                   <p>
-                    At GCS Autocare Grovedale, our licensed vehicle testers conduct comprehensive inspections covering
+                    At SLR Auto Care, our licensed vehicle testers conduct comprehensive inspections covering
                     all critical safety components of your vehicle, from brakes and steering to lights, tires, and
                     suspension.
                   </p>
@@ -519,11 +519,11 @@ export default function RoadworthyInspectionsPage() {
                     <div>
                       <h3 className="font-bold">Call Us Directly</h3>
                       <p className="text-gray-600">
-                        <a href="tel:0352705676" className="hover:underline">
-                          03 5270 5676
+                        <a href="tel:0352025884" className="hover:underline">
+                          03 5202 5884
                         </a><br/>
-                        <a href="tel:0490090995" className="hover:underline">
-                          0490 090 995
+                        <a href="tel:61447430065" className="hover:underline">
+                          61 447 430 065
                         </a>
                       </p>
                     </div>
@@ -567,11 +567,11 @@ export default function RoadworthyInspectionsPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3">Phone</h3>
                 <p className="text-gray-600 mb-4">Call us directly for immediate assistance</p>
-                <a href="tel:0352705676" className="text-red-900 font-medium hover:underline">
-                  03 5270 5676
+                <a href="tel:0352025884" className="text-red-900 font-medium hover:underline">
+                  03 5202 5884
                 </a>
-                <a href="tel:0490090995" className="text-red-900 font-medium hover:underline">
-                  0490 090 995
+                <a href="tel:61447430065" className="text-red-900 font-medium hover:underline">
+                  61 447 430 065
                 </a>
               </div>
             </ScrollReveal>
@@ -582,8 +582,8 @@ export default function RoadworthyInspectionsPage() {
                 </div>
                 <h3 className="text-xl font-bold mb-3">Email</h3>
                 <p className="text-gray-600 mb-4">Send us an email for any inquiries</p>
-                <a href="mailto:gcsautocaregrovedale@gmail.com" className="text-red-900 font-medium hover:underline">
-                  gcsautocaregrovedale@gmail.com
+                <a href="mailto:slrgroupptyltd@gmail.com" className="text-red-900 font-medium hover:underline">
+                  slrgroupptyltd@gmail.com
                 </a>
               </div>
             </ScrollReveal>
@@ -593,8 +593,8 @@ export default function RoadworthyInspectionsPage() {
                   <MapPin className="h-8 w-8 text-red-900" />
                 </div>
                 <h3 className="text-xl font-bold mb-3">Location</h3>
-                <p className="text-gray-600 mb-4">Visit our workshop in Grovedale</p>
-                <address className="not-italic text-red-900 font-medium">4/32 Essington St, Grovedale VIC 3216</address>
+                <p className="text-gray-600 mb-4">Visit our workshop in </p>
+                <address className="not-italic text-red-900 font-medium">5/32-44 Tarkin court Bell Park Vic 3215 Australia.</address>
               </div>
             </ScrollReveal>
             <ScrollReveal delay={0.4}>
@@ -605,9 +605,9 @@ export default function RoadworthyInspectionsPage() {
                 <h3 className="text-xl font-bold mb-3">Hours</h3>
                 <p className="text-gray-600 mb-4">Our business hours</p>
                 <div className="text-red-900 font-medium">
-                  <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                  <p>Monday - Saturday: 9:00 AM - 5:00 PM</p>
                   <p>Saturday: 9:00 AM - 2:00 PM</p>
-                  <p>Sunday: Closed</p>
+                  <p>Sunday by Appointent</p>
                 </div>
               </div>
             </ScrollReveal>
@@ -618,36 +618,36 @@ export default function RoadworthyInspectionsPage() {
       {/* Map Section */}
       <section className="h-[500px] relative">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.0677233460387!2d144.33999!3d-38.1912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad4171f58b4cb8f%3A0x5c0a96c5df0fe741!2s4%2F32%20Essington%20St%2C%20Grovedale%20VIC%203216!5e0!3m2!1sen!2sau!4v1651234567890!5m2!1sen!2sau"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.1644304040566!2d144.3357655!3d-38.1890255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad4170e5372e1c7%3A0x78e122b60c2de8d9!2s5%2F32-44%20Tarkin%20Ct%2C%20Bell%20Park%20VIC%203215%2C%20Australia!5e0!3m2!1sen!2sau!4v1716950500000!5m2!1sen!2sau"
           width="100%"
           height="100%"
           style={{ border: 0 }}
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="GCS Autocare Grovedale Location"
+          title="SLR Auto Care Location"
         ></iframe>
         <div className="absolute top-4 left-4 bg-white p-6 rounded-lg shadow-xl max-w-sm backdrop-blur-sm bg-white/90 border border-white/20">
           <h3 className="font-bold text-red-900 text-xl mb-4 flex items-center">
             <MapPin className="mr-2 h-5 w-5" /> Find Us
           </h3>
-          <p className="mb-4">4/32 Essington St, Grovedale VIC 3216</p>
+          <p className="mb-4">5/32-44 Tarkin court Bell Park Vic 3215 Australia.</p>
           <div className="space-y-2">
             <div className="flex items-center text-sm text-gray-600">
-              <Clock className="mr-2 h-4 w-4" /> Mon-Fri: 9:00 AM - 5:00 PM
+              <Clock className="mr-2 h-4 w-4" /> Mon-Sat: 9:00 AM - 5:00 PM
             </div>
             <div className="flex items-center text-sm text-gray-600">
-              <Clock className="mr-2 h-4 w-4" /> Sat: 9:00 AM - 2:00 PM
+              <Clock className="mr-2 h-4 w-4" /> Sunday by Appointent
             </div>
             <div className="flex items-center text-sm text-gray-600">
-              <Phone className="mr-2 h-4 w-4" /> 03 5270 5676
+              <Phone className="mr-2 h-4 w-4" /> 03 5202 5884
             </div>
             <div className="flex items-center text-sm text-gray-600">
-              <Phone className="mr-2 h-4 w-4" /> 0490 090 995
+              <Phone className="mr-2 h-4 w-4" /> 61 447 430 065
             </div>
           </div>
           <Button className="w-full mt-4 bg-red-900 hover:bg-red-800 group relative overflow-hidden" asChild>
-            <a href="https://www.google.com/maps/place/GCS+Autocare+Grovedale/@-38.1994723,144.3426708,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad41310ffbe65bb:0x74100d88591872de!8m2!3d-38.1994723!4d144.3452457!16s%2Fg%2F11wg95cc95?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.google.com/maps/place/SLR+Auto+Care/@-38.0963612,144.3391871,17z/data=!3m1!4b1!4m6!3m5!1s0x6ad411d148311cc7:0x44d8a121cac18183!8m2!3d-38.0963612!4d144.341762!16s%2Fg%2F11khf3drz0?entry=ttu&g_ep=EgoyMDI1MDUyNi4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
               <span className="relative z-10 flex items-center">
                 Get Directions
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
@@ -665,7 +665,7 @@ export default function RoadworthyInspectionsPage() {
             <ScrollReveal>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">Ready to Book Your Inspection?</h2>
               <p className="text-xl text-white/80 mb-8">
-                Schedule your roadworthy inspection today and experience the GCS Autocare difference.
+                Schedule your roadworthy inspection today and experience the SLR Auto Care difference.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button

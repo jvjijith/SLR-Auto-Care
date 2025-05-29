@@ -608,7 +608,7 @@ export default function PricingPage() {
             <ScrollReveal>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">Ready to Book Your Service?</h2>
               <p className="text-xl text-white/80 mb-8">
-                Schedule your appointment today and experience the Roadworthy Geelong difference.
+                Schedule your appointment today and experience the SLR Auto Care difference.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button

@@ -361,7 +361,7 @@ export default function ServicesPage() {
                 Comprehensive Automotive Services
               </h2>
               <p className="text-gray-600">
-                At GCS Autocare Grovedale, we offer a wide range of automotive services to keep your vehicle running
+                At SLR Auto Care, we offer a wide range of automotive services to keep your vehicle running
                 smoothly and safely.
               </p>
             </div>
@@ -707,7 +707,7 @@ export default function ServicesPage() {
             <ScrollReveal>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-6">Ready to Book Your Service?</h2>
               <p className="text-xl text-white/80 mb-8">
-                Schedule your appointment today and experience the GCS Autocare difference.
+                Schedule your appointment today and experience the SLR Auto Care difference.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button

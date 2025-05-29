@@ -27,7 +27,7 @@ export function HeroParallax() {
   return (
     <div className="absolute inset-0 overflow-hidden">
       <div ref={containerRef} className="w-full h-[120%] absolute top-0 left-0">
-        <Image src="/images/hero-bg.jpg" alt="Roadworthy Geelong" fill priority className="object-cover" />
+        <Image src="/images/hero-bg.jpg" alt="SLR Auto Care" fill priority className="object-cover" />
       </div>
     </div>
   )

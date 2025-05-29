@@ -52,7 +52,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
       },
       body: JSON.stringify({
         to: ['hhh300703@gmail.com'], // For testing
-        // to: ['gcsautocaregrovedale@gmail.com'], // Production email
+        // to: ['slrgroupptyltd@gmail.com'], // Production email
         subject: `New Booking Request: ${serviceName}`,
         formData: formObject,
       }),

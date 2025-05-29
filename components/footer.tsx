@@ -12,13 +12,13 @@ export default function Footer() {
               <div className="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full flex items-center justify-center p-2">
                 <Image
                   src="/images/logo.png"
-                  alt="Roadworthy Geelong Logo"
+                  alt="SLR Auto Care Logo"
                   width={40}
                   height={40}
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="text-lg sm:text-xl font-bold">GCS Autocare</span>
+              <span className="text-lg sm:text-xl font-bold">SLR Auto Care</span>
             </div>
             <p className="text-gray-400 mb-4 sm:mb-6 text-sm sm:text-base">
               Professional vehicle inspections and mechanical services with a commitment to quality and customer
@@ -26,12 +26,12 @@ export default function Footer() {
             </p>
             <div className="flex gap-3 sm:gap-4">
               <a
-                href="https://www.facebook.com/share/15Pw4kr5Ty/?mibextid=wwXIfr"
+                href="https://www.facebook.com/slrautocare/?modal=admin_todo_tour"
                 className="w-8 h-8 sm:w-10 sm:h-10 bg-white/10 rounded-full flex items-center justify-center text-white hover:bg-red-900 transition-colors duration-300"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
+                  width="16" 
                   height="16"
                   viewBox="0 0 24 24"
                   fill="none"
@@ -184,7 +184,7 @@ export default function Footer() {
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                   <circle cx="12" cy="10" r="3"></circle>
                 </svg>
-                <span>4/32 Essington St, Grovedale VIC 3216</span>
+                <span>5/32-44 Tarkin court Bell Park Vic 3215 Australia.</span>
               </li>
               <li className="flex items-center gap-2 sm:gap-3 text-sm sm:text-base">
                 <svg
@@ -201,8 +201,8 @@ export default function Footer() {
                 >
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
-                <a href="tel:0352705676" className="hover:text-red-500 transition-colors duration-300">
-                  03 5270 5676
+                <a href="tel:0352025884" className="hover:text-red-500 transition-colors duration-300">
+                  03 5202 5884
                 </a>
               </li>
               <li className="flex items-center gap-2 sm:gap-3 text-sm sm:text-base">
@@ -220,8 +220,8 @@ export default function Footer() {
                 >
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
-                <a href="tel:0490090995" className="hover:text-red-500 transition-colors duration-300">
-                  0490 090 995
+                <a href="tel:61447430065" className="hover:text-red-500 transition-colors duration-300">
+                  61 447 430 065
                 </a>
               </li>
               <li className="flex items-center gap-2 sm:gap-3 text-sm sm:text-base">
@@ -241,10 +241,10 @@ export default function Footer() {
                   <polyline points="22,6 12,13 2,6"></polyline>
                 </svg>
                 <a
-                  href="mailto: gcsautocaregrovedale@gmail.com"
+                  href="mailto: slrgroupptyltd@gmail.com"
                   className="hover:text-red-500 transition-colors duration-300 break-all"
                 >
-                   gcsautocaregrovedale@gmail.com
+                   slrgroupptyltd@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2 sm:gap-3 text-sm sm:text-base">
@@ -263,14 +263,14 @@ export default function Footer() {
                   <circle cx="12" cy="12" r="10"></circle>
                   <polyline points="12 6 12 12 16 14"></polyline>
                 </svg>
-                <span>Mon-Fri: 9am-5pm | Sat: 9am-2pm</span>
+                <span>Mon-Sat: 9am-5pm | Sunday by Appointent</span>
               </li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-8 sm:mt-12 pt-6 sm:pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm sm:text-base">© {new Date().getFullYear()} GCS Autocare Grovedale. All rights reserved.</p>
+          <p className="text-gray-400 text-sm sm:text-base">© {new Date().getFullYear()} SLR Auto Care. All rights reserved.</p>
           {/* <div className="flex gap-4 sm:gap-6 mt-4 md:mt-0">
             <Link href="/privacy" className="text-gray-400 hover:text-white transition-colors duration-300 text-sm sm:text-base">
               Privacy Policy

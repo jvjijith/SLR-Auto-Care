@@ -118,7 +118,7 @@ export function ModernNav() {
 >
   <Image
   src="/images/logo.png"
-  alt="GCS Autocare Grovedale Logo"
+  alt="SLR Auto Care Logo"
   width={40}
   height={40}
   className="w-full h-full sm:w-12 sm:h-12 object-contain"
@@ -131,7 +131,7 @@ export function ModernNav() {
                     isScrolled ? "text-red-900" : "text-white",
                   )}
                 >
-                  GCS Autocare
+                  SLR Auto Care
                 </span>
                 <span
                   className={cn(
@@ -139,7 +139,7 @@ export function ModernNav() {
                     isScrolled ? "text-gray-600" : "text-white/80",
                   )}
                 >
-                  Grovedale
+                  
                 </span>
               </div>
             </Link>
@@ -223,20 +223,20 @@ export function ModernNav() {
               className="absolute bottom-10 flex flex-col items-center gap-4 text-white/80"
             >
               <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
-                <a href="tel:0352705676" className="hover:text-white transition-colors duration-300">
-                  03 5270 5676
+                <a href="tel:0352025884" className="hover:text-white transition-colors duration-300">
+                  03 5202 5884
                 </a>
-                <a href="tel:0490090995" className="hover:text-white transition-colors duration-300">
-                0490 090 995
+                <a href="tel:61447430065" className="hover:text-white transition-colors duration-300">
+                61 447 430 065
                 </a>
                 <a
-                  href="mailto:gcsautocaregrovedale@gmail.com"
+                  href="mailto:slrgroupptyltd@gmail.com"
                   className="hover:text-white transition-colors duration-300"
                 >
-                  gcsautocaregrovedale@gmail.com
+                  slrgroupptyltd@gmail.com
                 </a>
               </div>
-              <p className="text-sm">4/32 Essington St, Grovedale VIC 3216</p>
+              <p className="text-sm">5/32-44 Tarkin court Bell Park Vic 3215 Australia.</p>
             </motion.div>
           </motion.div>
         )}

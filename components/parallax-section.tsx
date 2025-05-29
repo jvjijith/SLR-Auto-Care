@@ -28,7 +28,7 @@ export function ParallaxSection() {
           <ScrollReveal>
             <div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-red-900 mb-6">
-                Why Choose Roadworthy Geelong?
+                Why Choose SLR Auto Care?
               </h2>
               <div className="space-y-6">
                 <div className="flex gap-4 bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-sm transform transition-all duration-300 hover:shadow-md hover:-translate-y-1">
@@ -72,7 +72,7 @@ export function ParallaxSection() {
                   <div>
                     <h3 className="text-xl font-bold mb-2">Convenient Location</h3>
                     <p className="text-gray-600">
-                      Centrally located in Grovedale with pick-up and drop-off services available within 5km.
+                      Centrally located in  with pick-up and drop-off services available within 5km.
                     </p>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ export function ParallaxSection() {
               <div className="relative z-10 rounded-lg overflow-hidden shadow-2xl transform transition-all duration-500 hover:scale-105 hover:rotate-1">
                 <Image
                   src="/images/workshop.jpg"
-                  alt="Roadworthy Geelong Workshop"
+                  alt="SLR Auto Care Workshop"
                   width={600}
                   height={400}
                   className="w-full h-[400px] object-cover"

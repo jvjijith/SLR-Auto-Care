@@ -33,14 +33,14 @@ export function FloatingNav() {
     >
       <div className="container px-4 md:px-6 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <Image src="/images/logo.png" alt="Roadworthy Geelong Logo" width={40} height={40} className="w-10 h-10" />
+          <Image src="/images/logo.png" alt="SLR Auto Care Logo" width={40} height={40} className="w-10 h-10" />
           <span
             className={cn(
               "font-bold text-xl transition-colors duration-300",
               isScrolled ? "text-red-900" : "text-white",
             )}
           >
-            Roadworthy Geelong
+            SLR Auto Care
           </span>
         </Link>
 
@@ -117,12 +117,12 @@ export function FloatingNav() {
                 <Link href="/" className="flex items-center gap-2">
                   <Image
                     src="/images/logo.png"
-                    alt="Roadworthy Geelong Logo"
+                    alt="SLR Auto Care Logo"
                     width={40}
                     height={40}
                     className="w-10 h-10"
                   />
-                  <span className="font-bold text-xl text-red-900">Roadworthy Geelong</span>
+                  <span className="font-bold text-xl text-red-900">SLR Auto Care</span>
                 </Link>
               </div>
               <nav className="flex flex-col gap-4 py-8">
@@ -147,13 +147,13 @@ export function FloatingNav() {
                 <div className="mt-4 px-4">
                   <p className="text-sm text-gray-500 mb-2">Contact Us</p>
                   <p className="text-sm mb-1">
-                    <a href="tel:0352705676" className="hover:underline">
-                      03 5270 5676
+                    <a href="tel:0352025884" className="hover:underline">
+                      03 5202 5884
                     </a>
                   </p>
                   <p className="text-sm">
-                    <a href="mailto: gcsautocaregrovedale@gmail.com" className="hover:underline">
-                       gcsautocaregrovedale@gmail.com
+                    <a href="mailto: slrgroupptyltd@gmail.com" className="hover:underline">
+                       slrgroupptyltd@gmail.com
                     </a>
                   </p>
                 </div>
